@@ -4,7 +4,7 @@ var pixels = 0;
 
 
 var materScoot=document.getElementById('mater');
-var mcQueenScot=document.getElementById('mcQueen');
+var mcQueenScoot=document.getElementById('mcQueen');
 var start = document.getElementById('goButton');
 start.addEventListener("click", startGame, false);
 
