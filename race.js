@@ -18,7 +18,7 @@ function materMove() {
 	randomPixels2 = (pixels2 + randomPixels2);
 	if (pixels2 > 850) {
 		stoptimer();
-		materScoot.src = "img/Tow Mater.jpg";
+		materScoot.src = "img/TowMater.jpg";
 		materScoot.width = "250";
 	}
 }
@@ -29,7 +29,7 @@ function mcQueenMove() {
 	randomPixels2 = (pixels2 + randomPixels2);
 	if (pixels2 > 850) {
 		stoptimer();
-		mcQueenScoot.src = "img/Lightning McQueen.jpg";
+		mcQueenScoot.src = "img/LightningMcQueen.jpg";
 		mcQueenScoot.width = "250";
 	}
 }
@@ -41,4 +41,4 @@ function stoptimer() {
 	clearInterval(myTimer);
 	clearInterval(myTimer2);
 }
-}
+
