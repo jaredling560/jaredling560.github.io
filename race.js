@@ -15,7 +15,8 @@ function startGame() {
 
 function materMove() {
 	materScoot.setAttribute ("style", "margin-left:" + pixels + "px;");
-	randomPixels2 = (pixels2 + randomPixels2);
+	randomPixels2 = Math.ceil(Math.random()*75)
+	pixels2 = (pixels2 + randomPixels2);
 	if (pixels2 > 850) {
 		stoptimer();
 		materScoot.src = "img/TowMater.jpg";
@@ -26,7 +27,8 @@ function materMove() {
 
 function mcQueenMove() {
 	mcQueenScoot.setAttribute ("style", "margin-left:" + pixels + "px;");
-	randomPixels2 = (pixels2 + randomPixels2);
+	randomPixels2 = Math.ceil(Math.random()*75)
+	pixels2 = (pixels2 + randomPixels2);
 	if (pixels2 > 850) {
 		stoptimer();
 		mcQueenScoot.src = "img/LightningMcQueen.jpg";
