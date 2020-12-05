@@ -1,33 +1,35 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <html lang="en">
-<head>
-  <meta charset=UTF-8">
-  
+    <head>
+        <meta charset=UTF-8">
 
-  <title>The Great Race</title>
-  <meta name="description" content="HTML5 Template">
-<link rel="stylesheet" href="style.css">
+        <title>The Great Race</title>
+        <meta name="description" content="HTML5 Template">
+        <link rel="stylesheet" href="style.css">
 
-</head>
+        <script src="race.js"></script>
 
-<body>
+    </head>
 
-	<div class = 'raceTrack'>
-	<img src ="img/LigtningMcQueen.jpg" id="mcQueen" width="100">
-	<br/>
-	<img src ="img/TowMater.jpg" id="mater" width"100">
-	</div>
-	<div style="background-image: url('RaceTrack.jpg');">
-	<br/>
-	
+    <body>
+        <img src="img/go.png" width="250" id="goButton" alt="go" />
 
-	<div style="float: left;">
-		<img src ="img/Go.jpg" width="250" id="goButton" />
-	</div>
-	
-	<script src="race.js">
-	</script>
-	
-</body>
+        <h1 id="winner"></h1>
+
+        <div id="divider">
+            <img src="img/blank.png" height=20/>
+        </div>
+
+        <div id='raceTrack'>
+            <img src="img/blank.png" height=100 />
+        </div>
+        <div id="cars">
+            <img src="img/lightningMcQueen.png" id="mcQueen" width=100 alt="Lightning">
+            <img src="img/towMater.png" id="mater" width=100 alt="Mater">
+        </div>
+
+        <img src="img/finishLine.png" id="finishLine" alt="finish line" />
+
+    </body>
 </html>

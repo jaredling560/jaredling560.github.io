@@ -1,5 +1,60 @@
-body { 
-	background: url(img/RaceTrack.jpg");
-	background-repeat: no-repeat;
-	background-size: 100%;
-	overflow:auto;
+body {
+    background: url("img/raceTrack.png"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+
+}
+
+#goButton {
+    float: left;
+    position: relative;
+}
+
+#mcQueen {
+    position: relative;
+    display: block;
+    padding-bottom: 20px;
+}
+
+#cars {
+    position: relative;
+    top: 8.5em;
+    left: -200px;
+    z-index: 9;
+}
+
+#mater {
+    position: relative;
+}
+
+#winner {
+    color: red;
+    text-align: center;
+    background-color: #00000070;
+}
+
+#finishLine{
+    position: relative;
+    height: 775px;
+    z-index: 4;
+}
+
+#raceTrack {
+    background-color: #00000090;
+    position: relative;
+    top: 14em;
+    left: -200px;
+    width: 110%;
+    padding: 7px;
+}
+
+#divider {
+    position: relative;
+    top: 17em;
+    z-index: 2;
+    left: -22px;
+    border-bottom: dashed;
+    border-bottom-color: yellow;
+    border-bottom-width: 3px;
+}
